@@ -15,11 +15,11 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 
 ## Program:
 ```
-/*
+
 Program to implement the K Means Clustering for Customer Segmentation.
 Developed by: D.Vinitha Naidu
 RegisterNumber: 212222230175
-*/
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -64,4 +64,25 @@ plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="magenta",
 plt.legend()
 plt.title("Customer Segments   ")
 ```
+## Output:
+### data.head():
+![image](https://github.com/ShanmathiShanmugam/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/121243595/5b44c788-ae52-4d23-a439-20d93ea315da)
+
+### data.info():
+![image](https://github.com/ShanmathiShanmugam/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/121243595/ce55c579-cf65-4a40-9d7a-8cd921129ab1)
+
+### data.isnull().sum()
+![image](https://github.com/ShanmathiShanmugam/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/121243595/1623ad92-fb22-4c9f-9d2c-e99f022f9c2a)
+
+### Elbow method Graph:
+![image](https://github.com/ShanmathiShanmugam/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/121243595/845abcec-8790-4352-9d91-dda40d30bd88)
+
+### Kmeans clusters:
+![image](https://github.com/ShanmathiShanmugam/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/121243595/ea3de085-e626-4671-bd24-a7b22ba9ff07)
+
+### Customer segments graph:
+![image](https://github.com/ShanmathiShanmugam/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/121243595/b0a799fb-00bb-4062-9508-1c050ebc341c)
+
+## Result:
+Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
 
